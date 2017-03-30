@@ -1,0 +1,41 @@
+Process:               AdwareBuster [3323]
+Path:                  /Volumes/VOLUME/*/AdwareBuster.app/Contents/MacOS/AdwareBuster
+Identifier:            com.kromtech.AdwareBuster
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        ??? [1]
+Responsible:           AdwareBuster [3323]
+User ID:               1950357190
+
+Date/Time:             2017-03-24 11:08:46.774 +0200
+OS Version:            Mac OS X 10.12.3 (16D32)
+Report Version:        12
+Anonymous UUID:        B572F422-FE92-CF1A-BBDD-CBE1A873D153
+
+Sleep/Wake UUID:       CE7E33F2-6A99-46F8-B3B1-3B8DF1F4BFB5
+
+Time Awake Since Boot: 18000 seconds
+Time Since Wake:       1200 seconds
+
+System Integrity Protection: enabled
+
+Crashed Thread:        0
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Termination Reason:    DYLD, [0x1] Library missing
+
+Application Specific Information:
+dyld: launch, loading dependent libraries
+
+Dyld Error Message:
+  Library not loaded: @rpath/ZBFoundation.framework/Versions/A/ZBFoundation
+  Referenced from: /Volumes/VOLUME/*/AdwareBuster.app/Contents/MacOS/AdwareBuster
+  Reason: image not found
+
+Binary Images:
+       0x10aaf4000 -        0x10ab56ff7 +AdwareBuster (???) <310880D4-817E-33EC-AE68-D4420CCC3E09> /var/folders/*/AdwareBuster.app/Contents/MacOS/AdwareBuster
+       0x113984000 -        0x1139c1267  dyld (421.2) <947FC440-80F9-32F7-A773-6FC418FE1AB7> /usr/lib/dyld
+
